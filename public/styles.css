@@ -436,3 +436,167 @@ header ul a {
         width: 100% !important;
     }
 }
+/* My Project Section Styling */
+.my-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.project-card {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(8, 0, 32, 0.7);
+    border-radius: 15px;
+    padding: 30px;
+    border: 1px solid #727fde3d;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(114, 127, 222, 0.2);
+}
+
+.project-vidbox {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-vidbox img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-vidbox:hover img {
+    transform: scale(1.03);
+}
+
+.project-info {
+    flex: 1;
+    min-width: 300px;
+    padding: 0 20px;
+}
+
+.project-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #72a1de;
+}
+
+.project-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #b8b8b8;
+}
+
+.project-info button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background-color: #2200493d;
+    color: white;
+    border: 1px solid #727fdeb4;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.project-info button:hover {
+    background-color: #727fde;
+    box-shadow: 0 0 15px #727fde86;
+}
+
+.project-info button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .project-card {
+        gap: 30px;
+        padding: 25px;
+    }
+    
+    .project-info h1 {
+        font-size: 1.6rem;
+    }
+    
+    .project-info p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .project-vidbox, 
+    .project-info {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .project-info {
+        padding: 0;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-project {
+        width: 95%;
+    }
+    
+    .project-card {
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .project-info h1 {
+        font-size: 1.4rem;
+    }
+    
+    .project-info p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    
+    .project-info button {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+}
