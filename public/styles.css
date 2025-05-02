@@ -85,6 +85,17 @@ header ul a{
     color: #000;
     box-shadow: 0 0 15px #727fde6f;
 }
+.blackhole-box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    mix-blend-mode: lighten;
+}
+.blackhole-box video{
+    width: 100%;
+    margin-top: -23.5%;
+}
 
 @media (max-aspect-ratio: 16/9) {
     .back-vid{
@@ -92,7 +103,6 @@ header ul a{
         height: 100%;
     }
 }
-
 @media (min-aspect-ratio: 16/9) {
     .back-vid{
         width: 100%;
