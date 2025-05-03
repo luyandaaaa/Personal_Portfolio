@@ -862,3 +862,152 @@ header ul a {
         );
     }
 }
+
+/* Contact Section Styling */
+.contact-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 40px 0;
+    position: relative;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    background-color: rgba(8, 0, 32, 0.7);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #727fde3d;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box p {
+    color: #b8b8b8;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: #72a1de;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 12px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #727fde3d;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-box input:focus,
+.contact-box textarea:focus {
+    outline: none;
+    border-color: #727fdeb4;
+    box-shadow: 0 0 10px #727fde3d;
+}
+
+.input-message {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.social-box {
+    display: flex;
+    gap: 20px;
+}
+
+.social-box a {
+    color: #72a1de;
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+
+.social-box a:hover {
+    color: #727fde;
+    transform: translateY(-3px);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    background-color: #727fde;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #5a68c5;
+    box-shadow: 0 0 15px #727fde6f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-box {
+        padding: 30px;
+    }
+    
+    .contact-footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        width: 95%;
+        padding: 20px 0;
+    }
+    
+    .contact-box {
+        padding: 20px;
+    }
+    
+    .social-box {
+        gap: 15px;
+    }
+    
+    .social-box a {
+        font-size: 24px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+    }
+}
