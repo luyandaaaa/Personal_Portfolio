@@ -92,3 +92,17 @@ window.addEventListener('scroll', updateActiveLink);
 if (window.pageYOffset === 0) {
     document.querySelector('a[href="#home"]').classList.add('active');
 }
+// Chatbot Toggle Functionality
+const chatbotContainer = document.querySelector('.chatbot-container');
+const chatbotToggle = document.querySelector('.chatbot-toggle');
+
+chatbotToggle.addEventListener('click', function() {
+  chatbotContainer.classList.toggle('active');
+});
+
+// Close when clicking outside
+document.addEventListener('click', function(e) {
+  if (!chatbotContainer.contains(e.target)) {
+    chatbotContainer.classList.remove('active');
+  }
+});
