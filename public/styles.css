@@ -475,9 +475,6 @@ header ul a.active {
     .card p {
         font-size: 14px;
     }
-    .left h1{
-        font-size: 20px;
-    }
 }
 
 /* Tablet adjustments */
@@ -601,6 +598,9 @@ header ul a.active {
     
     .section-title {
         font-size: 32px;
+    }
+    header {
+        font-size: 16px;
     }
 }
 
