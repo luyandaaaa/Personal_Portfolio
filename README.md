@@ -33,3 +33,22 @@ A modern, responsive portfolio website showcasing my skills, projects, and certi
 - GitHub Pages
 
 ## Project Structure
+portfolio/
+├── assets/
+│ ├── images/
+│ │ ├── heroImage.jpeg
+│ │ ├── portfolio-preview.png
+│ │ ├── todo.png
+│ │ ├── weather.png
+│ │ ├── calculator.png
+│ │ ├── User.png
+│ │ └── digital-brain.png
+│ ├── videos/
+│ │ ├── galaxy.mp4
+│ │ └── blackhole.mp4
+├── index.html
+├── styles.css
+└── script.js
+
+License
+This project is open source and available under the MIT License.
