@@ -1382,7 +1382,7 @@ header ul a.active {
     width: 350px;
     height: 500px;
     background: #080020b7;
-    border: 1px solid #727fde3d;
+    border: 5px solid #727fde3d;
     border-radius: 15px;
     backdrop-filter: blur(10px);
     overflow: hidden;
