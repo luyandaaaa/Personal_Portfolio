@@ -36,5 +36,5 @@ A modern, responsive portfolio website showcasing my skills, projects, and certi
 ![Project structure Preview](assets/images/structure.png)
 
 
-License
-This project is open source and available under the MIT License.
+## 📜 License
+Distributed under the MIT License. See LICENSE for more information.
