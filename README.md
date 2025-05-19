@@ -33,7 +33,35 @@ A modern, responsive portfolio website showcasing my skills, projects, and certi
 - GitHub Pages
 
 ## Project Structure
-![Project structure Preview](assets/images/structure.png)
+```
+/
+├── LICENSE
+├── README.md
+├── assets/
+│   ├── images/
+│   │   ├── 1.png
+│   │   ├── 2.png
+│   │   ├── 3.png
+│   │   ├── 5.png
+│   │   ├── 6.png
+│   │   ├── 7.png
+│   │   ├── calculator.png
+│   │   ├── digital brain.png
+│   │   ├── heroImage.jpeg
+│   │   ├── portfolio.png
+│   │   ├── thumbnail.png
+│   │   ├── todo.png
+│   │   ├── User.png
+│   │   └── weather.png
+│   └── videos/
+│       ├── blackhole.mp4
+│       ├── desktop.ini
+│       └── galaxy.mp4
+└── public/
+    ├── index.html
+    ├── script.js
+    └── styles.css
+```
 
 
 ## 📜 License
